@@ -1,0 +1,22 @@
+{
+  "name": "create-qqhao-package",
+  "version": "1.0.0",
+  "description": "test qqhao package.vue.app",
+  "main": "lib/bundle.js",
+  "module": "lib/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "qqhao",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "react": "^17.0.2",
+    "rollup": "^2.45.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-postcss": "^3.1.8"
+  }
+}
